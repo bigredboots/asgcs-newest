@@ -284,7 +284,7 @@ button.k-button.k-bare.k-button-icon:after {
   color: white;
 }
 .k-column-title {
-  padding: 6px 0px;
+  padding: 0px 0px 0px 10px;
 }
 .k-filterable > .k-cell-inner .k-link {
   cursor: move;
@@ -303,6 +303,8 @@ button.k-button.k-bare.k-button-icon:after {
   background-color: #5d757e;
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
+  color: white;
+  cursor: pointer;
 }
 .k-pager-numbers .k-link.k-state-selected {
   background-color: #009ddb;
@@ -511,7 +513,9 @@ h4 {
   text-overflow: ellipsis;
   outline: 0;
 }
-.k-button-flat::before, .k-button.k-flat::before, .k-button.k-bare::before {
+.k-button-flat::before,
+.k-button.k-flat::before,
+.k-button.k-bare::before {
   display: block;
   position: relative;
 }
