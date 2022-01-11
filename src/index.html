@@ -37,6 +37,7 @@
     }
     kendo-grid-column-chooser .k-icon, .k-grid-excel .k-icon {
         border: 0px;
+        margin: 0px 10px 0px 5px;
     }
     .k-i-more-vertical::before {
     content: "\e031";
@@ -57,31 +58,14 @@
         border-left: 1px solid #404040;
     }
     .k-grid {color: #ccc; background: none}
-    .k-grid-toolbar {
-        border-radius: 10px 10px 0 0;
-        background: #000;
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 15px;
-        border-color: transparent;
-    }
+    
     .card-title-text {
         letter-spacing: .5px;
         color: #ccc;
         font-weight: 600;
         font-size: 16px;
     }
-    .k-toolbar::before {
-        display: none;
-    }
-    kendo-grid.k-widget.k-grid.k-grid-lockedcolumns {
-        border: none;
-    }
-    kendo-pager.k-pager-wrap {
-        border-radius: 0 0 10px 10px;
-        background: #000;
-    }
-    .k-grid-content {overflow-y: auto;}
+    
     button.k-button-icontext.k-button.k-grid-excel {
     background: #009ddc;
     box-shadow: none;
@@ -106,10 +90,7 @@ button.k-button.k-bare.k-button-icon:after {
     box-shadow: none;
     position: relative;
 }
-.k-grid .k-grid-aria-root {
-    background: black;
-    padding-left: 15px;
-}
+
 .k-column-title,
 .k-pager-numbers .k-link:hover {
     color: white;
@@ -287,6 +268,11 @@ h4 {
 .k-grid .k-grid-header-locked .k-header {
     font-size: 16px;
     border-bottom: 2px solid white;
+}
+.k-icon.k-i-more-vertical {
+    border: 0px;
+    font-size: 16px;
+    color: #ccc;
 }
 .full-screen {
     background: #009ddb;
