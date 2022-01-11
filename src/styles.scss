@@ -88,6 +88,9 @@ my-app {
   padding: 5px 3px;
   font-size: 12px;
 }
+.card-title {
+  margin-bottom: unset;
+}
 .advanced-link {
   color: $blue-color;
   font-size: $smallest-font;
