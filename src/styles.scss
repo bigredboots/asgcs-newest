@@ -68,6 +68,7 @@ my-app {
   border-radius: 5px 0px 0px 5px;
   display: flex;
   align-items: center;
+  width: unset;
 }
 .k-select {
   background: $grey-lightest;
@@ -146,6 +147,13 @@ my-app {
     color: white;
     font-size: 12px;
   }
+}
+.k-i-arrow-s::before {
+  color: $grey-lightest;
+  content: unset;
+}
+.k-i-calendar::before {
+  content: unset;
 }
 
 @media only screen and (max-width: 1200px) {
