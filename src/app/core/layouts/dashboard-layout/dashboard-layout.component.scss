@@ -13,7 +13,7 @@
     transition: $default-transition;
 
     &.open {
-      flex: 0 0 250px;
+      flex: 0 0 1px;
       padding: 35px 15px 35px 35px;
       transition: 0.4s all $cubic-transition;
     }

@@ -555,13 +555,15 @@ button.search-submit {
     padding-top: 20px;
   }
   .hamburger {
-    position: relative;
     background: $blue-color;
     min-width: 31px;
     max-width: 31px;
     height: 30px;
     cursor: pointer;
-    border-radius: 5px;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    border-radius: 100%;
 
     span {
       left: 8px;
