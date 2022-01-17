@@ -163,8 +163,8 @@ my-app {
   content: unset;
 }
 app-navigation-bar {
-  display: block;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 1200px) {

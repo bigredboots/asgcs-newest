@@ -556,14 +556,13 @@ button.search-submit {
   }
   .hamburger {
     background: $blue-color;
-    min-width: 31px;
-    max-width: 31px;
-    height: 30px;
+    width: 31px;
+    height: 29px;
     cursor: pointer;
-    position: absolute;
-    right: 0px;
-    top: 60px;
     border-radius: 100%;
+    position: relative;
+    right: 0px;
+    top: 10px;
 
     span {
       left: 12px;
@@ -572,8 +571,6 @@ button.search-submit {
       width: 10px;
       background: transparent;
       position: absolute;
-      display: block;
-      content: '';
       border-left: 2px solid #fff;
       border-bottom: 2px solid #fff;
       transform: rotate(45deg);

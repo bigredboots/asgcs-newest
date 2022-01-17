@@ -27,26 +27,24 @@
   transition: $default-transition;
 }
 .hamburger {
-  position: absolute;
   background: $blue-color;
   width: 31px;
   height: 29px;
   cursor: pointer;
   border-radius: 100%;
-  right: 2px;
-  top: 100px;
+  position: relative;
+  right: 0px;
+  top: 10px;
 
   span {
     left: 12px;
-    top: 9px;
-    height: 10px;
-    width: 10px;
-    background: transparent;
-    position: absolute;
-    display: block;
-    content: '';
-    border-left: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    transform: rotate(45deg);
+      top: 9px;
+      height: 10px;
+      width: 10px;
+      background: transparent;
+      position: absolute;
+      border-left: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      transform: rotate(45deg);
   }
 }
