@@ -29,7 +29,7 @@
     &.dashboard {
       margin-bottom: 50px;
     }
-    &.settings {
+    &.subtiers {
       margin-top: 50px;
     }
     &.open span:after {
@@ -71,7 +71,7 @@
   border-radius: 100%;
   background-position: center;
   display: block;
-  margin-right: 10px;
+  margin-right: 6px;
   background-repeat: no-repeat;
   border: 1px solid $grey-lighter;
   background-size: 20px;

@@ -566,36 +566,17 @@ button.search-submit {
     border-radius: 100%;
 
     span {
-      left: 8px;
-      top: 14px;
-      height: 2px;
-      width: 15px;
-      background: $white;
+      left: 12px;
+      top: 9px;
+      height: 10px;
+      width: 10px;
+      background: transparent;
       position: absolute;
       display: block;
       content: '';
-
-      &:before {
-        top: 14px;
-        height: 2px;
-        width: 15px;
-        background: $white;
-        position: absolute;
-        display: block;
-        content: '';
-        top: -8px;
-        left: 0px;
-      }
-      &:after {
-        height: 2px;
-        width: 15px;
-        background: $white;
-        position: absolute;
-        display: block;
-        content: '';
-        top: 8px;
-        left: 0px;
-      }
+      border-left: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      transform: rotate(45deg);
     }
   }
   .breadcrumb {

@@ -162,6 +162,10 @@ my-app {
 .k-i-calendar::before {
   content: unset;
 }
+app-navigation-bar {
+  display: block;
+  position: relative;
+}
 
 @media only screen and (max-width: 1200px) {
   .main-content.open .left-side-content .k-input span,
