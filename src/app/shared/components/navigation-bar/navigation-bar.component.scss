@@ -37,13 +37,16 @@
   top: 100px;
 
   span {
-    left: 8px;
-    top: 14px;
-    height: 2px;
-    width: 15px;
-    background: $white;
+    left: 12px;
+    top: 9px;
+    height: 10px;
+    width: 10px;
+    background: transparent;
     position: absolute;
     display: block;
     content: '';
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
   }
 }
