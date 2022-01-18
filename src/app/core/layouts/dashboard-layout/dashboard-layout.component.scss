@@ -69,9 +69,7 @@
   height: calc(100vh - 190px);
   transition: $default-transition;
 }
-#main-sidebar {
-  width: calc(100% - 40px);
-}
+
 ::ng-deep {
   .sidebar-active .overlayer,
   .mobile-open .overlayer-navigation {
@@ -111,9 +109,7 @@
   .left-column.collapse app-navigation-bar {
     justify-content: start;
   }
-  .left-column.collapse #main-sidebar {
-    width: 0px;
-  }
+  
   .left-column.collapse .hamburger span {
     transform: rotate(-45px);
   }

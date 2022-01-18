@@ -396,7 +396,7 @@ div.k-grid-header {
   color: #009ddb;
   background-color: white;
   background-image: none;
-  padding: 4px 10px;
+
   border-radius: 5px;
   font-size: 13px;
   padding: 2px 10px;
@@ -440,6 +440,13 @@ background-color: #5d757e;
 h4 {
   white-space: normal;
   font-size: 20px;
+}
+#main-sidebar {
+  width: calc(100% - 40px);
+  transition: 0.3s ease-in all;
+}
+.left-column.collapse #main-sidebar {
+  width: 0px;
 }
 .k-grid-content.k-virtual-content {
   background-image: linear-gradient(to right, black, black),
