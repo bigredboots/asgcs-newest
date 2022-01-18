@@ -38,7 +38,12 @@
     }
   }
   .status-good .icon::before {
-    background-color: $grey-lightest;
+    background-color: #333;
+    filter: invert(100%);
+  }
+  .status-good .parent {
+    font-weight: 600;
+    color: $white;
   }
   .status-error .icon::before {
     background-color: $red-color;
@@ -129,6 +134,9 @@ a.is-active {
     border-left-width: 7px;
     margin-right: 5px;
   }
+}
+a.no-child.is-active::before {
+  content: none;
 }
 .dashboard {
   // font-weight: 600;
