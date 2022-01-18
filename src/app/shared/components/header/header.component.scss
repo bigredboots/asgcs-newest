@@ -576,10 +576,6 @@ button.search-submit {
       transition: $default-transition;
     }
   }
-  .left-column.collapse .hamburger span {
-    transform: rotate(-135deg) !important;
-    left: 8px !important;
-  }
   .breadcrumb {
     display: none;
   }
