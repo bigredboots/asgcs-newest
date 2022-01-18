@@ -15,6 +15,7 @@ import { DemandReportsProfileComponent } from './demand-reports-profile/demandRe
 @NgModule({
   imports: [CommonModule, DemandRoutingModule],
   declarations: [
+    DemandComponent,
     DemandOverviewComponent,
     DemandDiscoverComponent,
     DemandReportsComponent,

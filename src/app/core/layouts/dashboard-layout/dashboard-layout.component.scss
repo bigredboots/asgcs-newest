@@ -19,7 +19,7 @@
     }
     &.collapse {
       flex: 0 0 55px;
-      padding: 35px 15px 35px 20px;
+      padding: 35px 0px 35px 20px;
       transition: 0.4s all $cubic-transition;
 
       .main-navigation ul {
@@ -110,9 +110,7 @@
     justify-content: start;
   }
   
-  .left-column.collapse .hamburger span {
-    transform: rotate(-45px);
-  }
+  
 
   .left-column.collapse .main-navigation ul li .navigation-links {
     position: absolute;

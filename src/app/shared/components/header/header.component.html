@@ -79,7 +79,6 @@
   <ng-container *ngIf="breadcrumbService.currentModule$ | async as module">
     <div
       class="filter-block filter-active filter-active"
-      [ngClass]="{ 'd-none': hideFilters }"
       #filters
       *ngIf="module == 'demand'"
     >
