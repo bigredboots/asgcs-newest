@@ -45,7 +45,7 @@ const routes: Routes = [
     data: {
       title: '3Main Page',
       breadcrumb: 'Reports',
-      filter: true,
+      filter: false,
     },
   },
   {
@@ -54,7 +54,7 @@ const routes: Routes = [
     data: {
       title: '9Main Page',
       breadcrumb: 'Activity Report',
-      filter: true,
+      filter: false,
     },
   },
   {
@@ -63,7 +63,7 @@ const routes: Routes = [
     data: {
       title: '11Main Page',
       breadcrumb: 'Locations Report',
-      filter: true,
+      filter: false,
     },
   },
   {
@@ -72,7 +72,7 @@ const routes: Routes = [
     data: {
       title: '14Main Page',
       breadcrumb: 'Profile Report',
-      filter: true,
+      filter: false,
     },
   },
   {
@@ -81,7 +81,7 @@ const routes: Routes = [
     data: {
       title: '4Main Page',
       breadcrumb: 'Status Report',
-      filter: true,
+      filter: false,
     },
   },
   {
@@ -100,7 +100,7 @@ const routes: Routes = [
     data: {
       title: '6Main Page',
       breadcrumb: 'Reports',
-      filter: true,
+      filter: false,
     },
   },
 
@@ -110,7 +110,7 @@ const routes: Routes = [
     data: {
       title: '6Main Page',
       breadcrumb: 'Activity Report',
-      filter: true,
+      filter: false,
     },
   },
   {
@@ -119,7 +119,7 @@ const routes: Routes = [
     data: {
       title: '6Main Page',
       breadcrumb: 'Locations Report',
-      filter: true,
+      filter: false,
     },
   },
   {
@@ -128,7 +128,7 @@ const routes: Routes = [
     data: {
       title: '6Main Page',
       breadcrumb: 'Profile Report',
-      filter: true,
+      filter: false,
     },
   },
   {
@@ -137,7 +137,7 @@ const routes: Routes = [
     data: {
       title: '6Main Page',
       breadcrumb: 'Status Report',
-      filter: true,
+      filter: false,
     },
   },
   {
@@ -153,7 +153,7 @@ const routes: Routes = [
   {
     path: 'reports',
     component: ReportsComponent,
-    data: { title: '16Main Page', breadcrumb: '' },
+    data: { title: '16Main Page', breadcrumb: '', filter: false, },
   },
   {
     path: 'settings',

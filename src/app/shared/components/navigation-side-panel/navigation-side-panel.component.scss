@@ -38,7 +38,7 @@
     }
   }
   .status-good .icon::before {
-    background-color: $green-color;
+    background-color: $grey-lightest;
   }
   .status-error .icon::before {
     background-color: $red-color;
