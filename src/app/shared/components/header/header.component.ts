@@ -35,6 +35,7 @@ export class HeaderComponent implements OnInit {
   @ViewChild('hubfilters') hubfilters: ElementRef;
   @ViewChild('outboundfilters') outboundfilters: ElementRef;
   @ViewChild('supplyfilters') supplyfilters: ElementRef;
+  @ViewChild('reportfilters') reportfilters: ElementRef;
 
   breadCrumb = GlobalConstants.breadCrumb;
 
@@ -55,6 +56,10 @@ export class HeaderComponent implements OnInit {
   }
   toggleOutboundFilters() {
     this.outboundfilters.nativeElement.classList.toggle('filter-active');
+    this.overview.nativeElement.classList.toggle('filter-active');
+  }
+  toggleReportFilters() {
+    this.reportfilters.nativeElement.classList.toggle('filter-active');
     this.overview.nativeElement.classList.toggle('filter-active');
   }
 
