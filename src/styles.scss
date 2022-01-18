@@ -63,6 +63,10 @@ my-app {
   color: $white;
 }
 
+.collapse:not(.show) {
+  display: block;
+}
+
 //Temporary theme for Kendo UI drop downs
 .k-input {
   padding: 0px 5px;
