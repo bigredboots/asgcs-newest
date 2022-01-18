@@ -415,14 +415,14 @@
     }
   }
   .menu-list ul li:hover {
-    background: #5d757e;
+    background: #5d757e !important;
     color: white;
   }
   .menu-list ul li:hover .title-row::after {
     border-top: 6px solid $white;
   }
   .menu-list ul .drop-active .title-row::after {
-    transform: rotate(90deg);
+    transform: rotate(0deg);
   }
 }
 :host ::ng-deep .card {
