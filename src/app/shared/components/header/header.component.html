@@ -74,7 +74,6 @@
       </div>
     </div>
   </div>
-
   <!--THIS FILTER SHOULD SHOW FOR DEMAND OVERVIEW and DEMAND DISCOVER SCREENS ONLY -->
   <ng-container *ngIf="breadcrumbService.currentModule$ | async as module">
     <div
@@ -297,7 +296,6 @@
     <!--THIS FILTER SHOULD SHOW FOR JUST REPORTS -->
     <div
       class="filter-block reportfilters filter-active"
-      [ngClass]="{ 'd-none': hideFilters }"
       #reportfilters
       *ngIf="module == 'reports'"
     >

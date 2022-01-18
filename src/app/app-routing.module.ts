@@ -153,7 +153,7 @@ const routes: Routes = [
   {
     path: 'reports',
     component: ReportsComponent,
-    data: { title: '16Main Page', breadcrumb: '', filter: false, },
+    data: { title: '16Main Page', breadcrumb: '' },
   },
   {
     path: 'settings',
