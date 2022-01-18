@@ -346,6 +346,7 @@
       padding: 10px 10px;
       font-size: 16px;
       cursor: pointer;
+      transition: $default-transition;
 
       &:after {
         width: 0;
@@ -375,7 +376,16 @@
       overflow-y: hidden;
       transition: $default-transition;
       margin: 0px;
-      padding: 0px;
+      padding: 0px 0px 0px 10px;
+      background: #626161;
+      
+      li {
+        background-color: #151515;
+      }
+      li:nth-child(odd) {
+        background-color: #252525;
+      }
+      
     }
     .drop-active .menu-listing {
       max-height: 300px;
@@ -407,6 +417,12 @@
   .menu-list ul li:hover {
     background: #5d757e;
     color: white;
+  }
+  .menu-list ul li:hover .title-row::after {
+    border-top: 6px solid $white;
+  }
+  .menu-list ul .drop-active .title-row::after {
+    transform: rotate(90deg);
   }
 }
 :host ::ng-deep .card {
