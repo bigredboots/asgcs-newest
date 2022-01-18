@@ -37,12 +37,22 @@
 .main-navigation ul li.settings .icon::before {
   background-image: url(/assets/icons/settings.svg);
 }
+
+.main-navigation ul li.hubs .icon,
+.main-navigation ul li.hubs .report,
+.main-navigation ul li.settings .icon,
+.main-navigation ul li.supply .icon {
+  cursor: pointer;
+}
+
+
 .home-logo .company-logo {
   background-image: url(/assets/tenants/companylogo.svg);
 }
 .home-logo .company-logo.ciena {
   background-image: url(/assets/tenants/ciena-logo.svg);
 }
+
 
 .top-navigation-block .notifications .icon {
   background-image: url(/assets/icons/notification.svg);

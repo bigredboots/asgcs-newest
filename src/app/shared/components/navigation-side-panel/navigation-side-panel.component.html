@@ -84,7 +84,7 @@
       </div>
     </li>
     <li class="hubs" [routerLinkActive]="['status-good']">
-      <div class="icon"></div>
+      <div class="icon" [routerLink]="['/hubs']"></div>
       <div class="navigation-links">
         <a class="no-child" [routerLink]="['/hubs']">Hubs</a>
       </div>
@@ -94,7 +94,7 @@
       <div class="navigation-links"><span>Inbound Shipments</span></div>
     </li> -->
     <li class="supply" [routerLinkActive]="['status-good']">
-      <div class="icon"></div>
+      <div class="icon" [routerLink]="['/supply']"></div>
       <div class="navigation-links">
         <a
           class="no-child"
@@ -105,7 +105,7 @@
       </div>
     </li>
     <li class="reports" [routerLinkActive]="['status-good']">
-      <div class="icon"></div>
+      <div class="icon" [routerLink]="['/reports']"></div>
       <div class="navigation-links">
         <a
           class="no-child"
@@ -121,7 +121,7 @@
       (click)="toggleSidebar()"
       [routerLinkActive]="['status-good']"
     >
-      <div class="icon"></div>
+      <div class="icon" [routerLink]="['/settings']"></div>
       <div class="navigation-links">
         <a [routerLink]="['/settings']" [routerLinkActive]="['is-active']"
           >Settings</a
