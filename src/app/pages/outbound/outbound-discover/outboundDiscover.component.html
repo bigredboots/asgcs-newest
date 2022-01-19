@@ -24,8 +24,7 @@
             class="maximize-icon"
             [routerLink]="['/outboundReportsLocations']"
           ></a>
-          <div class="moreinfo-icon" (click)="FMapMoreInfo()">
-          </div>
+          <div class="moreinfo-icon" (click)="FMapMoreInfo()"></div>
 
           <div class="moreinfo-block" #mapmoreinfo>
             <div class="moreinfo-header">
@@ -48,28 +47,28 @@
       />
     </div>
     <div gridCell class="card card-body">
-    <div class="card-title">
-      <div class="card-title-text">Summary</div>
+      <div class="card-title">
+        <div class="card-title-text">Summary</div>
+      </div>
+      <div class="card-element four-totals">
+        <div class="lines">
+          <div class="title">Distinct Bill TOs</div>
+          <div class="numbers">9,999</div>
+        </div>
+        <div class="lines">
+          <div class="title">Order Sales</div>
+          <div class="numbers">$ 99.9</div>
+        </div>
+        <div class="lines">
+          <div class="title">Distinct Ship TOs</div>
+          <div class="numbers">99</div>
+        </div>
+        <div class="lines">
+          <div class="title">Orders Shipped</div>
+          <div class="numbers">999</div>
+        </div>
+      </div>
     </div>
-    <div class="card-element four-totals">
-      <div class="lines">
-        <div class="title">Distinct Bill TOs</div>
-        <div class="numbers">9,999</div>
-      </div>
-      <div class="lines">
-        <div class="title">Order Sales</div>
-        <div class="numbers">$ 99.9</div>
-      </div>
-      <div class="lines">
-        <div class="title">Distinct Ship TOs</div>
-        <div class="numbers">99</div>
-      </div>
-      <div class="lines">
-        <div class="title">Orders Shipped</div>
-        <div class="numbers">999</div>
-      </div>
-    </div>
-  </div>
     <div gridCell class="card card-body">
       <div class="card-title">
         <div class="left-side-content">
@@ -90,8 +89,7 @@
             class="maximize-icon"
             [routerLink]="['/outboundReportsTotaldemand']"
           ></a>
-          <div class="moreinfo-icon" (click)="TreeMapMoreInfo()">
-          </div>
+          <div class="moreinfo-icon" (click)="TreeMapMoreInfo()"></div>
 
           <div class="moreinfo-block" #treemapmoreinfo>
             <div class="moreinfo-header">
@@ -153,8 +151,7 @@
             class="maximize-icon"
             [routerLink]="['/outboundReportsProfile']"
           ></a>
-          <div class="moreinfo-icon" (click)="DProfileMoreInfo()">
-          </div>
+          <div class="moreinfo-icon" (click)="DProfileMoreInfo()"></div>
 
           <div class="moreinfo-block" #dprofilemoreinfo>
             <div class="moreinfo-header">
@@ -209,8 +206,7 @@
             class="maximize-icon"
             [routerLink]="['/outboundReportsWavechart']"
           ></a>
-          <div class="moreinfo-icon" (click)="DActivityMoreInfo()">
-          </div>
+          <div class="moreinfo-icon" (click)="DActivityMoreInfo()"></div>
 
           <div class="moreinfo-block" #dactivitymoreinfo>
             <div class="moreinfo-header">
@@ -229,8 +225,10 @@
         </div>
       </div>
       <img
-        src="https://stackblitz.com/files/asgcs-wn3wtk/github/bigredboots/asgcs-newest/master/src/assets/images/line-chart.png" style="height: auto"
+        src="https://stackblitz.com/files/asgcs-wn3wtk/github/bigredboots/asgcs-newest/master/src/assets/images/line-chart.png"
+        style="height: auto"
       />
       <app-horizgrid></app-horizgrid>
+    </div>
   </app-grid-container>
 </div>

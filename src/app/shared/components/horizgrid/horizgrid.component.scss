@@ -13,5 +13,23 @@
 .text-bold {
   font-weight: 600;
 }
-
-
+.horizgrid-block {
+  background: #151515;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.horizgrid-block div.k-grid-header {
+  border-radius: 0px;
+}
+.horizgrid-block .k-grid-toolbar {
+  background: #151515;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-top: 1px solid #ccc;
+  border-radius: 0px;
+}
+.horizgrid-block .k-grid-aria-root {
+  margin: 0px 0px 0px 15px;
+  background: #151515;
+  border-top: 1px solid #555;
+}
