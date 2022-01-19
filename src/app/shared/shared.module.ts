@@ -13,6 +13,7 @@ import { BreadcrumbComponent } from './components/breadcrumb/breadcrumb.componen
 
 import { DonutComponent } from './components/charts/donut-chart/donut-chart.component';
 import { VertgridComponent } from './components/vertgrid/vertgrid.component';
+import { HorizgridComponent } from './components/horizgrid/horizgrid.component';
 import { DonutComponentAlt } from './components/charts/donut-chart-alt/donut-chart-alt.component';
 import { ChartsModule } from '@progress/kendo-angular-charts';
 import {
@@ -29,6 +30,7 @@ import { InputsModule } from '@progress/kendo-angular-inputs';
     DonutComponent,
     DonutComponentAlt,
     VertgridComponent,
+    HorizgridComponent,
     NavigationBarComponent,
     NavigationSidePanelComponent,
     SingleDoubleClickDirective,
@@ -49,6 +51,7 @@ import { InputsModule } from '@progress/kendo-angular-inputs';
     DonutComponent,
     DonutComponentAlt,
     VertgridComponent,
+    HorizgridComponent,
     GridContainerComponent,
     GridCellDirective,
     NavigationBarComponent,
