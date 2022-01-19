@@ -52,16 +52,16 @@
         <dt>Order Type</dt>
         <dd>{{ dataItem.gender }}</dd>
 
-        <dt>Customer</dt>
+        <dt>Grand Total</dt>
         <dd>{{ dataItem.full_name }}</dd>
 
-        <dt>Job Title</dt>
+        <dt>20 Dec 2021/dt>
         <dd>{{ dataItem.job_title }}</dd>
 
-        <dt>Country</dt>
+        <dt>27 Dec 2021</dt>
         <dd>{{ dataItem.country }}</dd>
 
-        <dt>Budget</dt>
+        <dt>3 Jan 2021</dt>
         <dd>{{ dataItem.budget | currency }}</dd>
       </dl>
     </ng-template>
@@ -71,7 +71,7 @@
     media="(min-width: 501px)"
     field="gender"
     title="Order Type"
-    [width]="220"
+    [width]="160"
     [locked]="true"
   >
     <ng-template kendoGridCellTemplate let-dataItem>
@@ -81,8 +81,8 @@
   <kendo-grid-column
     media="(min-width: 501px)"
     field="id"
-    title="CPN"
-    [width]="220"
+    title="Grand Total"
+    [width]="160"
     [locked]="true"
   >
     <ng-template kendoGridCellTemplate let-dataItem>
@@ -93,9 +93,8 @@
   <kendo-grid-column
     media="(min-width: 501px)"
     field="full_name"
-    title="Customer"
+    title="20 Dec 2021"
     [width]="160"
-    [locked]="true"
   >
     <ng-template kendoGridCellTemplate let-dataItem>
       {{ dataItem.full_name }}
@@ -105,7 +104,7 @@
   <kendo-grid-column
     media="(min-width: 501px)"
     field="job_title"
-    title="Job Title"
+    title="27 Dec 2021"
     [width]="150"
   >
     <ng-template kendoGridCellTemplate let-dataItem>
@@ -115,7 +114,7 @@
   <kendo-grid-column
     media="(min-width: 501px)"
     field="country"
-    title="Country"
+    title="3 Jan 2021"
     [width]="130"
     [class]="{ 'text-center': true }"
     [resizable]="true"
@@ -127,7 +126,7 @@
   <kendo-grid-column
     field="is_online"
     media="(min-width: 501px)"
-    title="Status"
+    title="10 Jan 2021"
     [width]="140"
     [class]="{ 'text-center': true }"
     [resizable]="true"
@@ -139,7 +138,7 @@
   </kendo-grid-column>
   <kendo-grid-column
     field="rating"
-    title="Rating"
+    title="17 Jan 2021"
     media="(min-width: 501px)"
     [width]="110"
     [resizable]="true"
@@ -152,7 +151,7 @@
   <kendo-grid-column
     field="target"
     media="(min-width: 501px)"
-    title="Engagement"
+    title="24 Jan 2021"
     [width]="230"
     [resizable]="true"
     filter="numeric"
@@ -164,7 +163,7 @@
   <kendo-grid-column
     field="budget"
     media="(min-width: 501px)"
-    title="Budget"
+    title="31 Jan 2021"
     [width]="150"
     filter="numeric"
   >
@@ -177,14 +176,14 @@
   <kendo-grid-column
     media="(min-width: 501px)"
     field="phone"
-    title="Phone"
+    title="7 Feb 2021"
     [width]="130"
   >
   </kendo-grid-column>
   <kendo-grid-column
     media="(min-width: 501px)"
     field="address"
-    title="Address"
+    title="14 Feb 2021"
     [width]="200"
   >
   </kendo-grid-column>
