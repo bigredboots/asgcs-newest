@@ -1,3 +1,49 @@
-h1 {
-  font-family: Lato;
+.buttonjump {
+  position: absolute;
+  right: 27px;
+  background: #009ddc;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: white;
+  max-height: 18px;
+  overflow: hidden;
+  transition: 0.3s ease-in all;
+}
+.buttonjump.open {
+  max-height: 200px;
+}
+.buttonjump .jump-title {
+  display: block;
+  margin: 0px 0px 10px 0px;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.buttonjump a {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+  color: white;
+  margin-left: 11px;
+  background: #0081b5;
+  padding: 3px 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.buttonjump .jump-title::after {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #fff;
+  display: inline-block;
+  content: '';
+  margin-left: 0px;
+  position: relative;
+  top: -2px;
+  transform: rotate(-90deg);
+  transition: 0.3s ease-in all;
+}
+.buttonjump.open .jump-title::after {
+  transform: rotate(0deg);
 }
