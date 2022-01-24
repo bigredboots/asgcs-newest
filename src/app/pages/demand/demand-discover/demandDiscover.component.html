@@ -187,11 +187,18 @@
         <div class="card-icons" #activitymoreinfo>
           <div class="buttonjump" #reportsopen>
             <div class="jump-title" (click)="DReportsOpen()">
-              View Activity Reports
+              Optional Details
             </div>
-            <a [routerLink]="['/demandReportsLocations']">Gap Report</a>
-            <a [routerLink]="['/demandReportsLocations']">CEW Report</a>
-            <a [routerLink]="['/demandReportsLocations']">Detailed Report</a>
+            <a [routerLink]="['/demandReportsLocations']">Demand Plan</a>
+            <a [routerLink]="['/demandReportsLocations']"
+              >Demand Plan Summary</a
+            >
+            <a [routerLink]="['/demandReportsLocations']"
+              >Demand & Supply Plan</a
+            >
+            <a [routerLink]="['/demandReportsLocations']"
+              >Early Warning Details</a
+            >
           </div>
           <div class="moreinfo-icon" (click)="DActivityMoreInfo()"></div>
         </div>
