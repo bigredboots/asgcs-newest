@@ -83,7 +83,7 @@
     media="(min-width: 501px)"
     field="full_name"
     title="20 Dec 2021"
-    [width]="80"
+    [width]="130"
   >
     <ng-template kendoGridCellTemplate let-dataItem>
       {{ dataItem.full_name }}
@@ -94,7 +94,7 @@
     media="(min-width: 501px)"
     field="job_title"
     title="27 Dec 2021"
-    [width]="80"
+    [width]="130"
   >
     <ng-template kendoGridCellTemplate let-dataItem>
       {{ dataItem.job_title }}
@@ -104,7 +104,7 @@
     media="(min-width: 501px)"
     field="country"
     title="3 Jan 2021"
-    [width]="80"
+    [width]="130"
     [class]="{ 'text-center': true }"
     [resizable]="true"
   >
@@ -116,7 +116,7 @@
     field="is_online"
     media="(min-width: 501px)"
     title="10 Jan 2021"
-    [width]="80"
+    [width]="130"
     [class]="{ 'text-center': true }"
     [resizable]="true"
   >
@@ -129,7 +129,7 @@
     field="rating"
     title="17 Jan 2021"
     media="(min-width: 501px)"
-    [width]="80"
+    [width]="130"
     [resizable]="true"
   >
     <ng-template kendoGridCellTemplate let-dataItem>
@@ -140,9 +140,31 @@
     field="target"
     media="(min-width: 501px)"
     title="24 Jan 2021"
-    [width]="80"
+    [width]="130"
     [resizable]="true"
   >
+  <ng-template kendoGridCellTemplate let-dataItem>
+    {{ dataItem.rating }}
+  </ng-template>
+</kendo-grid-column>
+<kendo-grid-column
+  field="target"
+  media="(min-width: 501px)"
+  title="31 Jan 2021"
+  [width]="130"
+  [resizable]="true"
+>
+<ng-template kendoGridCellTemplate let-dataItem>
+  {{ dataItem.rating }}
+</ng-template>
+</kendo-grid-column>
+<kendo-grid-column
+field="target"
+media="(min-width: 501px)"
+title="7 Feb 2021"
+[width]="130"
+[resizable]="true"
+>
     <ng-template kendoGridCellTemplate let-dataItem>
       {{ dataItem.target }}
     </ng-template>
@@ -150,8 +172,8 @@
   <kendo-grid-column
     field="budget"
     media="(min-width: 501px)"
-    title="31 Jan 2021"
-    [width]="80"
+    title="14 Feb 2021"
+    [width]="130"
   >
     <ng-template kendoGridCellTemplate let-dataItem>
       <span [ngClass]="{ 'red text-bold': dataItem.budget < 0 }">{{
@@ -162,15 +184,15 @@
   <kendo-grid-column
     media="(min-width: 501px)"
     field="phone"
-    title="7 Feb 2021"
-    [width]="80"
+    title="6 Mar 2021"
+    [width]="130"
   >
   </kendo-grid-column>
   <kendo-grid-column
     media="(min-width: 501px)"
     field="address"
-    title="14 Feb 2021"
-    [width]="80"
+    title="31 Mar 2021"
+    [width]="130"
   >
   </kendo-grid-column>
 

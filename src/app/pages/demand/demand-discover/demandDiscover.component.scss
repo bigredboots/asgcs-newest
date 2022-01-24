@@ -1,4 +1,3 @@
-
 .buttonjump {
   position: absolute;
   right: 27px;
@@ -6,24 +5,34 @@
   padding: 2px 5px;
   border-radius: 5px;
   color: white;
-  max-height: 18px;
+  max-height: 17px;
   overflow: hidden;
-  transition: .3s ease-in all;
+  transition: 0.3s ease-in all;
 }
 .buttonjump.open {
   max-height: 200px;
 }
 .buttonjump .jump-title {
-  display: block;
-  margin: 0px 0px 10px 0px;
-  font-size: 14px;
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
   white-space: nowrap;
   cursor: pointer;
+  gap: 7px;
+  align-items: center;
 }
+.buttonjump .jump-title:before {
+  display: inline-block;
+  background-image: url(/assets/icons/maximize.svg);
+  content: '';
+  height: 12px;
+  background-repeat: no-repeat;
+}
+
 .buttonjump a {
   display: block;
   margin: 5px 0;
-  font-size: 14px;
+  font-size: 12px;
   color: white;
   margin-left: 11px;
   background: #0081b5;
@@ -38,12 +47,11 @@
   border-right: 4px solid transparent;
   border-top: 4px solid #fff;
   display: inline-block;
-  content: "";
-  margin-left: 0px;
+  content: '';
+  margin-left: -5px;
   position: relative;
-  top: -2px;
   transform: rotate(-90deg);
-  transition: .3s ease-in all;
+  transition: 0.3s ease-in all;
 }
 .buttonjump.open .jump-title::after {
   transform: rotate(0deg);

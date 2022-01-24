@@ -243,6 +243,9 @@
     font-weight: 600;
     white-space: nowrap;
   }
+  .maximize-icon:hover {
+    filter: brightness(1) !important;
+  }
   .maximize-icon:hover::before {
     content: 'View Detailed Report';
     display: block;

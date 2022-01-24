@@ -189,16 +189,18 @@
             <div class="jump-title" (click)="DReportsOpen()">
               Optional Details
             </div>
-            <a [routerLink]="['/demandReportsLocations']">Demand Plan</a>
-            <a [routerLink]="['/demandReportsLocations']"
-              >Demand Plan Summary</a
-            >
-            <a [routerLink]="['/demandReportsLocations']"
-              >Demand & Supply Plan</a
-            >
-            <a [routerLink]="['/demandReportsLocations']"
-              >Early Warning Details</a
-            >
+            <div class="inner-jump-links">
+              <a [routerLink]="['/demandReportsLocations']">Demand Plan</a>
+              <a [routerLink]="['/demandReportsLocations']"
+                >Demand Plan Summary</a
+              >
+              <a [routerLink]="['/demandReportsLocations']"
+                >Demand & Supply Plan</a
+              >
+              <a [routerLink]="['/demandReportsLocations']"
+                >Early Warning Details</a
+              >
+            </div>
           </div>
           <div class="moreinfo-icon" (click)="DActivityMoreInfo()"></div>
         </div>
