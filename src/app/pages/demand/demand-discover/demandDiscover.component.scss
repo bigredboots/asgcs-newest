@@ -4,6 +4,7 @@
   background: #009ddc;
   padding: 2px 5px;
   border-radius: 5px;
+  max-width: 125px;
   color: white;
   max-height: 17px;
   overflow: hidden;
@@ -25,22 +26,32 @@
   display: inline-block;
   background-image: url(/assets/icons/maximize.svg);
   content: '';
-  width: 1
+  width: 15px;
   height: 12px;
   background-repeat: no-repeat;
 }
-
+.inner-jump-links {
+  border-radius: 10px;
+  margin: 5px 0 3px;
+  padding-left: 0px;
+  background: #616161;
+}
 .buttonjump a {
   display: block;
-  margin: 5px 0;
   font-size: 12px;
-  color: white;
-  margin-left: 11px;
-  background: #0081b5;
-  padding: 3px 5px;
-  border-radius: 3px;
+  color: #fff;
+  padding: 7px 11px;
   white-space: nowrap;
+  background: #252525;
+  transition: 0.3s ease-in all;
 }
+.buttonjump a:nth-child(2n + 1) {
+  background: #151515;
+}
+.buttonjump a:hover {
+  background: #5d757e !important;
+}
+
 .buttonjump .jump-title::after {
   width: 0;
   height: 0;
