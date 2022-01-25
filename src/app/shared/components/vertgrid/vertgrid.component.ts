@@ -27,7 +27,7 @@ export class VertgridComponent implements OnInit {
 
   ngOnInit() {
     this.gridView = this.gridData;
-    this.elem = document.getElementById('vertical-grid');
+    this.elem = document.getElementById('vertical-grid-container');
   }
 
   openFullscreen(event) {
