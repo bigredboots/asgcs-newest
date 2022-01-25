@@ -8,10 +8,11 @@
   color: white;
   max-height: 17px;
   overflow: hidden;
-  transition: 0.3s ease-in all;
+  transition: max-width 0.3s ease-out, max-height 0.5s ease-out 0.2s;
 }
 .buttonjump.open {
   max-height: 200px;
+  max-width: 160px;
 }
 .buttonjump .jump-title {
   display: flex;
