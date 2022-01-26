@@ -61,4 +61,10 @@
   #vertical-grid .k-select {
     border-radius: 0 5px 5px 0;
   }
+  .fullscreened #vertical-grid .k-select {
+    padding: 3px 0px;
+  }
+  .fullscreened #vertical-grid .k-input {
+    padding: 3px 6px;
+  }
 }

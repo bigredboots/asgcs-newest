@@ -3,6 +3,7 @@
 import {
   Component,
   Inject,
+  HostListener,
   OnInit,
   ViewChild,
   ViewEncapsulation,
@@ -47,7 +48,7 @@ export class VertgridComponent implements OnInit {
   }
 
   /* Close fullscreen */
-  closeFullscreen() {
+  closeFullscreen(event) {
     this.elem.classList.remove('fullscreened');
     if (this.document.exitFullscreen) {
       this.document.exitFullscreen();
@@ -61,6 +62,33 @@ export class VertgridComponent implements OnInit {
       /* IE/Edge */
       this.document.msExitFullscreen();
     }
+  }
+
+  @HostListener('document:fullscreenchange', ['$event']) onKeydownHandler(
+    event: KeyboardEvent
+  ) {
+    if (!document.fullscreenElement) {
+      this.elem.classList.remove('fullscreened');
+    } else {
+      this.elem.classList.add('fullscreened');
+    }
+    // if (this.document.exitFullscreen) {
+    //   console.log('boom');
+    //   this.elem.classList.remove('fullscreened');
+    // } else
+    // if (this.document.mozCancelFullScreen) {
+    //   //   /* Firefox */
+    //   this.elem.classList.remove('fullscreened');
+    // }
+    // else if (this.document.webkitExitFullscreen) {
+    //   /* Chrome, Safari and Opera */
+    //   console.log('boom');
+    //   this.elem.classList.remove('fullscreened');
+    // } else if (this.document.msExitFullscreen) {
+    //   /* IE/Edge */
+    //   console.log('boom');
+    //   this.elem.classList.remove('fullscreened');
+    // }
   }
 
   @ViewChild(TooltipDirective) public tooltipDir: TooltipDirective;
