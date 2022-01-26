@@ -17,3 +17,48 @@
 .filter-block {
   display: none;
 }
+.block-filters {
+  display: flex;
+  gap: 12px;
+  flex-flow: nowrap;
+  margin-top: 3px;
+}
+.block-filterbuttons {
+  margin-left: 20px;
+  display: flex;
+  gap: 12px;
+}
+.fullscreened {
+  .filter-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid #404040;
+    border-right: 1px solid #404040;
+  }
+  .filter-title {
+    font-size: 20px;
+  }
+  .card-title-text {
+    font-size: 24px;
+    color: white;
+  }
+  .k-grid-toolbar {
+    display: grid;
+    align-items: center;
+    background: #29272a;
+    border-radius: 10px;
+    margin: 20px 20px;
+    width: calc(100% - 70px);
+    border: 1px solid #404040;
+    padding: 0px;
+    grid-template-columns: auto auto auto;
+
+    > div {
+      padding: 20px;
+    }
+  }
+  #vertical-grid .k-select {
+    border-radius: 0 5px 5px 0;
+  }
+}
