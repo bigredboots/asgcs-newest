@@ -8,6 +8,7 @@
 
 <div id="vertical-grid-container" class="vertgridreg">
 <kendo-grid
+[rowClass]="rowCallback"
   #mylabel
   id="vertical-grid"
   [kendoGridBinding]="gridView"
@@ -33,7 +34,7 @@
   (pageChange)="pageChange($event)"
 >
   <ng-template kendoGridToolbarTemplate>
-    <div class="card-title-text">Vertical Grid Title</div>
+    <div class="card-title-text">GAP AD CEW</div>
 
     <div class="filter-block vertgrid">
       <div class="filters">
