@@ -13,7 +13,7 @@
         <div class="menu-list">
           <ul class="bucket-row">
             <li>
-              <label class="title-row" class="menu-label" for="demand-drop">Demand</label>
+              <label class="title-row menu-label" for="demand-drop">Demand</label>
               <input type="checkbox" class="menu-check" id="demand-drop">
               <ul class="menu-listing">
                 <li>
@@ -48,8 +48,9 @@
                 </li>
               </ul>
             </li>
-            <li (click)="FOutboundMoreInfo()" #foutboundoverview>
-              <div class="title-row">Outbound</div>
+            <li>
+            <label class="title-row menu-label" for="outbound-drop">Outbound</label>
+            <input type="checkbox" class="menu-check" id="outbound-drop">
               <ul class="menu-listing">
                 <li>
                   <a>OUTBOUND FULL REPORT</a>
@@ -104,8 +105,9 @@
                 </li>
               </ul>
             </li>
-            <li (click)="FHubsMoreInfo()" #fhubsoverview>
-              <div class="title-row">Hubs</div>
+            <li>
+            <label class="title-row menu-label" for="hubs-drop">Outbound</label>
+            <input type="checkbox" class="menu-check" id="hubs-drop">
               <ul class="menu-listing">
                 <li>
                   <a>HUBS FULL REPORT</a>
@@ -140,8 +142,9 @@
                 </li>
               </ul>
             </li>
-            <li (click)="FInboundMoreInfo()" #finboundoverview>
-              <div class="title-row">Inbound</div>
+            <li>
+            <label class="title-row menu-label" for="Inbound-drop">Outbound</label>
+            <input type="checkbox" class="menu-check" id="Inbound-drop">
               <ul class="menu-listing">
                 <li>
                   <a>Inbound Shipping FULL REPORT</a>
@@ -177,7 +180,8 @@
               </ul>
             </li>
             <li (click)="FHubsMoreInfo()" #fsupplyoverview>
-              <div class="title-row">Supply</div>
+            <label class="title-row menu-label" for="Supply-drop">Supply</label>
+            <input type="checkbox" class="menu-check" id="Supply-drop">
               <ul class="menu-listing">
                 <li>
                   <a>Supply FULL REPORT</a>
