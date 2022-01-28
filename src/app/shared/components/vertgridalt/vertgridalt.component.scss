@@ -72,3 +72,25 @@
 .k-grid tr.k-alt {
   background: transparent;
 }
+.k-grid .k-alt.subtotalrow,
+.k-grid .subtotalrow {
+  background-color: #404040;
+}
+.k-grid .k-alt.totalrow,
+.k-grid .totalrow {
+  background-color: #999;
+  color: black !important;
+}
+.k-grid .k-alt.subtotalrow td,
+.k-grid .subtotalrow td {
+  color: black;
+}
+.k-grid .k-alt.totalrow td,
+.k-grid .totalrow td {
+  color: black;
+  font-weight: bold;
+}
+.k-grid .k-grid-content-locked .k-alt.totalrow td,
+.k-grid .k-grid-content-locked .k-alt.subtotalrow td {
+  background-color: rgba(255, 255, 255, 0.3);
+}
