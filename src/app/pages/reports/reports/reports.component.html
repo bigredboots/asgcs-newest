@@ -12,11 +12,12 @@
         </div>
         <div class="menu-list">
           <ul class="bucket-row">
-            <li (click)="FDemandMoreInfo()" #fdemandoverview>
-              <div class="title-row">Demand</div>
+            <li>
+              <label class="title-row" for="demand-drop">Demand</label>
+              <input type="checkbox" id="demand-drop">
               <ul class="menu-listing">
                 <li>
-                  <a>Demand Full Report</a>
+                  <a (click)="ReloadThings()">Demand Full Report</a>
                 </li>
                 <li>
                   <a>Demand Donut One</a>
@@ -236,7 +237,7 @@
       <div class="card-title">
         <div class="card-title-text">Summary</div>
       </div>
-      <div class="card-element four-totals">
+      <div class="card-element four-totals" #reloadnumbers>
         <div class="lines">
           <div class="title">Order Count</div>
           <div class="numbers">9,999</div>

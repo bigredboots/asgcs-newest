@@ -12,6 +12,8 @@ export class ReportsComponent {
   @ViewChild('fsupplyoverview') fsupplyoverview: ElementRef;
   @ViewChild('finboundoverview') finboundoverview: ElementRef;
 
+  @ViewChild('reloadnumbers') reloadnumbers: ElementRef;
+
   FDemandMoreInfo() {
     this.fdemandoverview.nativeElement.classList.toggle('drop-active');
   }
@@ -26,6 +28,10 @@ export class ReportsComponent {
   }
   FInboundMoreInfo() {
     this.finboundoverview.nativeElement.classList.toggle('drop-active');
+  }
+
+  ReloadThings() {
+    this.finboundoverview.nativeElement.classList.add('twirl');
   }
   ngOnInit(): void {}
 }
