@@ -21,6 +21,13 @@
     grid-template-columns: auto 360px;
     gap: 20px;
     border-radius: 0;
+    transition: $default-transition;
+
+    &.nochart {
+      grid-template-columns: auto 0px;
+      gap: 0px;
+      border-radius: 10px;
+    }
   }
 
   .card-title {
@@ -455,6 +462,11 @@
     }
   }
 }
+
+:host ::ng-deep .vertgrid {
+  display: none !important;
+}
+
 :host ::ng-deep .card-items {
   display: flex;
   align-items: center;

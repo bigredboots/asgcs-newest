@@ -1,6 +1,6 @@
 <div class="page-container">
   <app-grid-container>
-    <div gridCell gcColSpan="2" class="reportcell">
+    <div gridCell gcColSpan="2" class="reportcell nochart">
       <div class="card card-body report-list">
         <div class="card-title left">
           <div class="custom-reports card-title-text">Report List</div>
@@ -13,8 +13,10 @@
         <div class="menu-list">
           <ul class="bucket-row">
             <li>
-              <label class="title-row menu-label" for="demand-drop">Demand</label>
-              <input type="checkbox" class="menu-check" id="demand-drop">
+              <label class="title-row menu-label" for="demand-drop"
+                >Demand</label
+              >
+              <input type="checkbox" class="menu-check" id="demand-drop" />
               <ul class="menu-listing">
                 <li>
                   <a (click)="ReloadThings()">Demand Full Report</a>
@@ -49,8 +51,10 @@
               </ul>
             </li>
             <li>
-            <label class="title-row menu-label" for="outbound-drop">Outbound</label>
-            <input type="checkbox" class="menu-check" id="outbound-drop">
+              <label class="title-row menu-label" for="outbound-drop"
+                >Outbound</label
+              >
+              <input type="checkbox" class="menu-check" id="outbound-drop" />
               <ul class="menu-listing">
                 <li>
                   <a>OUTBOUND FULL REPORT</a>
@@ -106,8 +110,10 @@
               </ul>
             </li>
             <li>
-            <label class="title-row menu-label" for="hubs-drop">Outbound</label>
-            <input type="checkbox" class="menu-check" id="hubs-drop">
+              <label class="title-row menu-label" for="hubs-drop"
+                >Outbound</label
+              >
+              <input type="checkbox" class="menu-check" id="hubs-drop" />
               <ul class="menu-listing">
                 <li>
                   <a>HUBS FULL REPORT</a>
@@ -143,8 +149,10 @@
               </ul>
             </li>
             <li>
-            <label class="title-row menu-label" for="Inbound-drop">Outbound</label>
-            <input type="checkbox" class="menu-check" id="Inbound-drop">
+              <label class="title-row menu-label" for="Inbound-drop"
+                >Outbound</label
+              >
+              <input type="checkbox" class="menu-check" id="Inbound-drop" />
               <ul class="menu-listing">
                 <li>
                   <a>Inbound Shipping FULL REPORT</a>
@@ -180,8 +188,10 @@
               </ul>
             </li>
             <li (click)="FHubsMoreInfo()" #fsupplyoverview>
-            <label class="title-row menu-label" for="Supply-drop">Supply</label>
-            <input type="checkbox" class="menu-check" id="Supply-drop">
+              <label class="title-row menu-label" for="Supply-drop"
+                >Supply</label
+              >
+              <input type="checkbox" class="menu-check" id="Supply-drop" />
               <ul class="menu-listing">
                 <li>
                   <a>Supply FULL REPORT</a>
@@ -260,11 +270,11 @@
         </div>
       </div>
     </div>
-    <div gridCell gcColSpan="3" class="card card-body">
+    <div gridCell gcColSpan="3" class="vertgrid card card-body">
       <app-vertgrid></app-vertgrid>
     </div>
     <div gridCell gcColSpan="3" class="vertgridalt card card-body">
-    <app-vertgridalt></app-vertgridalt>
-  </div>
+      <app-vertgridalt></app-vertgridalt>
+    </div>
   </app-grid-container>
 </div>
