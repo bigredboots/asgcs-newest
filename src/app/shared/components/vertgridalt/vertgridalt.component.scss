@@ -109,14 +109,20 @@
   position: relative;
 }
 .k-grid .totalrow td:nth-child(1)::after {
-  content: '';
-  width: 370px;
-  height: 50px;
-  background-color: red;
-  display: block;
-  position: relative;
-  bottom: 0px;
-  left: 0px;
+  content: "";
+width: 10px;
+height: 10px;
+background-color: #02849e;
+display: block;
+position: absolute;
+bottom: -10px;
+left: -10px;
+border-radius: 0px 0px 0px 20px;
+border: 10px solid black;
+border-width: 0px 0px 10px 10px;
+}
+.k-grid .k-grid-content-locked .totalrow td:nth-child(1)::after {
+  background-color: #65a7b8;
 }
 
 // .k-grid tbody tr.totalrow.k-state-hover td,
