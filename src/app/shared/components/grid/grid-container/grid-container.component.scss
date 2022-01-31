@@ -463,9 +463,9 @@
   }
 }
 
-:host ::ng-deep .vertgrid {
-  display: none !important;
-}
+//:host ::ng-deep .vertgrid {
+ // display: none !important;
+//}
 
 :host ::ng-deep .card-items {
   display: flex;
