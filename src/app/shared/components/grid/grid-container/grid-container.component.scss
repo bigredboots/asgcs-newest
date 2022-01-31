@@ -414,6 +414,8 @@
     font-size: 14px;
     background-color: $black;
     position: relative;
+    transition: $fast-transition;
+    cursor: pointer;
   }
   .menu-list ul li:nth-child(odd) {
     background-color: #111111;
