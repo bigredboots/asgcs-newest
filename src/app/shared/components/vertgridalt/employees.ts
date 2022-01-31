@@ -15,7 +15,7 @@ export const employees = [
     address: '138 Buhler Avenue',
     img_id: 1,
     gender: '00302-0028',
-    code: "C1",
+    code: 'C1',
   },
   {
     id: '-',
@@ -30,7 +30,7 @@ export const employees = [
     address: '2 Waxwing Point',
     img_id: 2,
     gender: '00302-0028',
-    code: "C2",
+    code: 'C2',
   },
   {
     id: '-',
@@ -45,7 +45,7 @@ export const employees = [
     address: '4082 Stephen Court',
     img_id: 6,
     gender: '00302-0028',
-    code: "C3",
+    code: 'C3',
   },
   {
     id: 'e6002-8a92-447d-951b-1ffd5',
@@ -60,7 +60,7 @@ export const employees = [
     address: '1563 Glacier Hill Parkway',
     img_id: 5,
     gender: '00302-0033',
-    code: "C1",
+    code: 'C1',
   },
   {
     id: '-',
@@ -75,7 +75,7 @@ export const employees = [
     address: '6 Laurel Avenue',
     img_id: 8,
     gender: '00302-0033',
-    code: "C2",
+    code: 'C2',
   },
   {
     id: '-',
@@ -90,7 +90,7 @@ export const employees = [
     address: '106 Green Street',
     img_id: 3,
     gender: '00302-0033',
-    code: "C3",
+    code: 'C3',
   },
   {
     id: 'd2ff1b02-3808-44aa-9056-3b5df34bf865',
@@ -105,7 +105,7 @@ export const employees = [
     address: '69 Brentwood Alley',
     img_id: 2,
     gender: '00302-0040',
-    code: "C1",
+    code: 'C1',
   },
   {
     id: '26b2b760-27e8-47a6-81c2-07870d1b2b30',
@@ -120,7 +120,7 @@ export const employees = [
     address: '39 Morning Circle',
     img_id: 3,
     gender: '00302-0040',
-    code: "C1",
+    code: 'C1',
   },
   {
     id: '91c6b652-4206-4a0c-bac6-dc21283a72d7',
@@ -135,7 +135,7 @@ export const employees = [
     address: '11 Walton Court',
     img_id: 2,
     gender: '00302-0040',
-    code: "C1",
+    code: 'C1',
   },
   {
     id: '1e8289dc-2ef3-4045-ad6b-786d00368427',
@@ -150,7 +150,7 @@ export const employees = [
     address: '38547 Westend Way',
     img_id: 4,
     gender: '00302-0040',
-    code: "C1",
+    code: 'C1',
   },
   {
     id: '797387bd-c247-48b3-97b6-5e75791f8809',
@@ -165,7 +165,7 @@ export const employees = [
     address: '9 Summer Ridge Circle',
     img_id: 2,
     gender: '00302-0040',
-    code: "C1",
+    code: 'C1',
   },
   {
     id: '-',
@@ -180,7 +180,7 @@ export const employees = [
     address: '06 Lerdahl Point',
     img_id: 10,
     gender: '00302-0040',
-    code: "C2",
+    code: 'C2',
   },
   {
     id: '',
@@ -195,7 +195,7 @@ export const employees = [
     address: '4035 Porter Parkway',
     img_id: 6,
     gender: '00302-0040',
-    code: "C3",
+    code: 'C3',
   },
   {
     id: '139066b5-60c5-4cf5-9afe-fb4e5558b087',
@@ -210,7 +210,7 @@ export const employees = [
     address: '57028 Moland Terrace',
     img_id: 8,
     gender: 'Firm Order',
-    code: "C1",
+    code: 'C1',
   },
   {
     id: '-',
@@ -225,7 +225,7 @@ export const employees = [
     address: '21973 Beilfuss Alley',
     img_id: 4,
     gender: 'Firm Order',
-    code: "C2",
+    code: 'C2',
   },
   {
     id: '5cb391fe-4855-445c-a8b8-617c04d1d999',
@@ -240,7 +240,7 @@ export const employees = [
     address: '7 Dahle Terrace',
     img_id: 1,
     gender: 'Buffer Sales Order',
-    code: "C3",
+    code: 'C3',
   },
   {
     id: '4ba9ad7e-d8b7-40e7-b8cd-67a8e743a249',
@@ -255,7 +255,7 @@ export const employees = [
     address: '89418 Knutson Pass',
     img_id: 1,
     gender: 'Buffer Sales Order',
-    code: "C1",
+    code: 'C1',
   },
   {
     id: 'e4a31407-39d1-4ab7-aad1-4e026a8c42fa',
@@ -270,7 +270,7 @@ export const employees = [
     address: '8589 Vernon Drive',
     img_id: 8,
     gender: 'Firm Order',
-    code: "C1",
+    code: 'C1',
   },
   {
     id: 'cd050499-dbf1-4a43-86ab-54feaacef401',
@@ -285,7 +285,7 @@ export const employees = [
     address: '707 Gale Hill',
     img_id: 9,
     gender: 'Firm Order',
-    code: "C2",
+    code: 'C2',
   },
   {
     id: 'fda1c419-c0b8-4278-94b0-2ebef6bda164',
@@ -300,6 +300,7 @@ export const employees = [
     address: '856 Forest Crossing',
     img_id: 3,
     gender: 'Firm Order',
+    code: 'C1',
   },
   {
     id: '4a962db9-136e-4fcc-a683-2f961e27fb6e',
@@ -314,6 +315,7 @@ export const employees = [
     address: '157 Talisman Trail',
     img_id: 9,
     gender: 'Forecast Sales Order',
+    code: 'C1',
   },
   {
     id: 'fa47e456-83c4-4fdc-b57b-07effb279967',
@@ -328,6 +330,7 @@ export const employees = [
     address: '07 Marquette Point',
     img_id: 3,
     gender: 'Firm Order',
+    code: 'C1',
   },
   {
     id: '67656444-fbcd-4813-84e7-1bdcd82f803e',
@@ -342,6 +345,7 @@ export const employees = [
     address: '2192 Iowa Lane',
     img_id: 6,
     gender: 'F',
+    code: 'C2',
   },
   {
     id: '05c098c2-9617-4e66-928a-e29b97297138',
@@ -356,6 +360,7 @@ export const employees = [
     address: '4355 Iowa Parkway',
     img_id: 4,
     gender: 'Firm Order',
+    code: 'C1',
   },
   {
     id: '3b263e99-51bf-4461-bb20-d4303d326cd9',
@@ -370,6 +375,7 @@ export const employees = [
     address: '496 Lotheville Avenue',
     img_id: 8,
     gender: 'Firm Order',
+    code: 'C2',
   },
   {
     id: 'c09ddfaf-569e-4a75-8e53-1be27cf25927',
@@ -384,6 +390,7 @@ export const employees = [
     address: '93 Thierer Park',
     img_id: 6,
     gender: 'Firm Order',
+    code: 'C3',
   },
   {
     id: 'a48abbc9-6143-4f77-a720-0b76ad862a9a',
@@ -398,6 +405,7 @@ export const employees = [
     address: '191 Bunting Pass',
     img_id: 5,
     gender: 'Forecast Sales Order',
+    code: 'C1',
   },
   {
     id: 'd8816aee-4230-4392-a045-0a9c297451f7',
@@ -412,6 +420,7 @@ export const employees = [
     address: '4287 Corben Plaza',
     img_id: 8,
     gender: 'Firm Order',
+    code: 'C1',
   },
   {
     id: '9f5af32c-fb0d-4449-a658-f2c7f182b63a',
@@ -426,6 +435,7 @@ export const employees = [
     address: '075 Eggendart Avenue',
     img_id: 9,
     gender: 'Firm Order',
+    code: 'C1',
   },
   {
     id: 'dbd7f48a-6540-4560-bb7c-cd60456b55b8',
@@ -440,6 +450,7 @@ export const employees = [
     address: '987 Carioca Lane',
     img_id: 9,
     gender: 'Firm Order',
+    code: 'C2',
   },
   {
     id: '844189fe-d36e-4e06-9761-932259701fc8',
@@ -454,6 +465,7 @@ export const employees = [
     address: '9 Pennsylvania Crossing',
     img_id: 8,
     gender: 'F',
+    code: 'C3',
   },
   {
     id: '5544d9d5-40ea-4e5a-8fb8-f5016b313b8f',
@@ -468,6 +480,7 @@ export const employees = [
     address: '652 Merry Place',
     img_id: 9,
     gender: 'Forecast Sales Order',
+    code: 'C1',
   },
   {
     id: '1c669764-3cff-424a-b7e4-e7711d6c7d6c',
@@ -482,6 +495,7 @@ export const employees = [
     address: '4 Norway Maple Pass',
     img_id: 9,
     gender: 'Forecast Sales Order',
+    code: 'C2',
   },
   {
     id: '4cc649dc-7f85-40ab-bc59-950f37268a65',
@@ -496,6 +510,7 @@ export const employees = [
     address: '71 Carioca Park',
     img_id: 6,
     gender: 'Forecast Sales Order',
+    code: 'C3',
   },
   {
     id: '8c9505f1-e8f8-4ba6-8c9a-5a1d089c6f09',
