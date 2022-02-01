@@ -1,23 +1,31 @@
-/* this is temporary for reporting button mockup */
-
-.fullscreened {
-  #alt-vertical-grid .k-select {
-    border-radius: 0 5px 5px 0;
-  }
-  .fullscreened #alt-vertical-grid .k-select {
-    padding: 3px 0px;
-  }
-  .fullscreened #alt-vertical-grid .k-input {
-    padding: 3px 6px;
+#alt-vertical-grid
+  .k-grid-container
+  div:nth-child(1)
+  .k-grid-table-wrap
+  .k-grid-table {
+  .totalrow td:nth-child(1)::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #999;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    border-radius: 0px 0px 0px 20px;
+    border: 10px solid black;
+    border-width: 0px 0px 10px 10px;
   }
 }
-
+.k-grid-content-locked .totalrow td:nth-child(1)::after {
+  background-color: #aeaeae;
+}
 .k-grid tr.k-alt {
   background: transparent;
 }
-.k-grid .k-alt.subtotalrow,
+// .k-grid .k-alt.subtotalrow,
 .k-grid .subtotalrow {
-  color: #000;
+  // color: #000;
   background: #404040;
 }
 .k-grid .k-alt.subtotalrow td,
@@ -43,22 +51,7 @@
   border-left: 0px;
   position: relative;
 }
-.k-grid .totalrow td:nth-child(1)::after {
-  content: '';
-  width: 10px;
-  height: 10px;
-  background-color: #999;
-  display: block;
-  position: absolute;
-  bottom: -10px;
-  left: -10px;
-  border-radius: 0px 0px 0px 20px;
-  border: 10px solid black;
-  border-width: 0px 0px 10px 10px;
-}
-.k-grid .k-grid-content-locked .totalrow td:nth-child(1)::after {
-  background-color: #aeaeae;
-}
+
 .k-grid
   .k-grid-content-locked
   .totalrow.k-state-selected
