@@ -82,7 +82,7 @@ export const employees = [
     full_name: '-',
     job_title: 'Professor',
     country: 'FR',
-    is_online: false,
+    is_online: true,
     rating: 2,
     target: 35,
     budget: 37198,

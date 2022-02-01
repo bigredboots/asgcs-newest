@@ -57,7 +57,7 @@
   border-width: 0px 0px 10px 10px;
 }
 .k-grid .k-grid-content-locked .totalrow td:nth-child(1)::after {
-  background-color: #999;
+  background-color: #aeaeae;
 }
 .k-grid
   .k-grid-content-locked
@@ -68,7 +68,9 @@
 }
 
 .k-grid tbody tr.totalrow.k-state-hover td,
-.k-grid tbody tr.totalrow:hover td {
+.k-grid tbody tr.totalrow:hover td,
+.k-grid tbody tr.totalrow:hover td,
+.k-grid .k-grid-content-locked tr.totalrow:hover td {
   background-color: #5d757e;
   border-bottom: 30px solid black;
 
@@ -82,4 +84,24 @@
 .k-grid .k-grid-content-locked .totalrow td,
 .k-grid .k-grid-content-locked .subtotalrow td {
   background-color: rgba(255, 255, 255, 0.2);
+}
+.k-grid tbody tr:hover,
+.k-grid tbody tr.k-state-hover,
+.k-grid tbody tr:hover td,
+.k-grid tbody tr.k-state-hover td,
+.k-grid .k-grid-content-locked .k-state-hover td,
+.k-grid .k-grid-content-locked tr:hover td,
+.k-grid .k-grid-content-locked .subtotalrow:hover td,
+.k-grid .k-alt.subtotalrow:hover td,
+.k-grid .subtotalrow:hover td {
+  background-color: #5d757e;
+}
+.k-grid tbody tr:hover td,
+.k-grid tbody tr.k-state-hover td,
+.k-grid .k-grid-content-locked .k-state-hover td,
+.k-grid .k-grid-content-locked tr:hover td,
+.k-grid .k-alt.subtotalrow:hover td,
+.k-grid .subtotalrow:hover td {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
 }

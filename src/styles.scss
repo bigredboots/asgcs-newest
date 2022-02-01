@@ -432,21 +432,10 @@ div.k-grid-header {
 .k-grid tbody tr {
   transition: $default-transition;
 }
-.k-grid tbody tr:hover,
-.k-grid tbody tr.k-state-hover,
-.k-grid tbody tr:hover td,
-.k-grid tbody tr.k-state-hover td,
-.k-grid .k-grid-content-locked .k-state-hover td,
-.k-grid .k-grid-content-locked tr:hover td {
-  background-color: #5d757e;
+.k-grid tbody tr td {
+  transition: $fast-transition;
 }
-.k-grid tbody tr:hover td,
-.k-grid tbody tr.k-state-hover td,
-.k-grid .k-grid-content-locked .k-state-hover td,
-.k-grid .k-grid-content-locked tr:hover td {
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
-}
+
 h4 {
   white-space: normal;
   font-size: 20px;
