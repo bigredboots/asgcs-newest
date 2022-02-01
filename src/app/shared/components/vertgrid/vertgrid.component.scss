@@ -68,3 +68,7 @@
     padding: 3px 6px;
   }
 }
+
+#vertical-grid.k-grid tr:nth-child(2n + 1) {
+  background-color: rgba(255, 255, 255, 0.05);
+}

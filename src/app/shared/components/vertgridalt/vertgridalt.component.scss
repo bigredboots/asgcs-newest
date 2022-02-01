@@ -1,70 +1,13 @@
 /* this is temporary for reporting button mockup */
-.good,
-.late {
-  background: #54b948;
-  font-size: 12px;
-  color: black;
-  padding: 3px 7px;
-  border-radius: 5px;
-}
-.late {
-  background: #e31b23;
-}
-.text-bold {
-  font-weight: 600;
-}
 
-.filter-block {
-  display: none;
-}
-.block-filters {
-  display: flex;
-  gap: 12px;
-  flex-flow: nowrap;
-  margin-top: 3px;
-}
-.block-filterbuttons {
-  margin-left: 20px;
-  display: flex;
-  gap: 12px;
-}
 .fullscreened {
-  .filter-block {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-left: 1px solid #404040;
-    border-right: 1px solid #404040;
-  }
-  .filter-title {
-    font-size: 20px;
-  }
-  .card-title-text {
-    font-size: 24px;
-    color: white;
-  }
-  .k-grid-toolbar {
-    display: grid;
-    align-items: center;
-    background: #29272a;
-    border-radius: 10px;
-    margin: 20px 20px;
-    width: calc(100% - 70px);
-    border: 1px solid #404040;
-    padding: 0px;
-    grid-template-columns: auto auto auto;
-
-    > div {
-      padding: 20px;
-    }
-  }
-  #vertical-grid .k-select {
+  #alt-vertical-grid .k-select {
     border-radius: 0 5px 5px 0;
   }
-  .fullscreened #vertical-grid .k-select {
+  .fullscreened #alt-vertical-grid .k-select {
     padding: 3px 0px;
   }
-  .fullscreened #vertical-grid .k-input {
+  .fullscreened #alt-vertical-grid .k-input {
     padding: 3px 6px;
   }
 }
@@ -75,11 +18,7 @@
 .k-grid .k-alt.subtotalrow,
 .k-grid .subtotalrow {
   color: #000;
-  background: linear-gradient(
-    180deg,
-    rgba(40, 40, 40, 1) 0%,
-    rgba(2, 132, 158, 1) 100%
-  );
+  background: #404040;
 }
 .k-grid .k-alt.subtotalrow td,
 .k-grid .subtotalrow td {
@@ -88,15 +27,11 @@
 }
 .k-grid .k-grid-content-locked .k-alt.subtotalrow td,
 .k-grid .k-grid-content-locked .subtotalrow td {
-  background: linear-gradient(
-    180deg,
-    rgba(30, 30, 30, 1) 0%,
-    rgba(2, 132, 158, 1) 100%
-  );
+  background: #999;
 }
 .k-grid .k-alt.totalrow,
 .k-grid .totalrow {
-  background-color: #02849e;
+  background-color: #999;
   color: black !important;
 }
 .k-grid .k-alt.totalrow td,
@@ -112,7 +47,7 @@
   content: '';
   width: 10px;
   height: 10px;
-  background-color: #02849e;
+  background-color: #999;
   display: block;
   position: absolute;
   bottom: -10px;
@@ -122,7 +57,7 @@
   border-width: 0px 0px 10px 10px;
 }
 .k-grid .k-grid-content-locked .totalrow td:nth-child(1)::after {
-  background-color: #65a7b8;
+  background-color: #999;
 }
 .k-grid
   .k-grid-content-locked
@@ -133,14 +68,18 @@
 }
 
 .k-grid tbody tr.totalrow.k-state-hover td,
-.k-grid tbody tr.totalrow:hover td,
- {
+.k-grid tbody tr.totalrow:hover td {
   background-color: #5d757e;
+  border-bottom: 30px solid black;
+
+  &::after {
+    content: none;
+  }
 }
 
 .k-grid .k-grid-content-locked .k-alt.totalrow td,
 .k-grid .k-grid-content-locked .k-alt.subtotalrow td,
 .k-grid .k-grid-content-locked .totalrow td,
 .k-grid .k-grid-content-locked .subtotalrow td {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
 }

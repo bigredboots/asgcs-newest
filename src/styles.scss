@@ -411,7 +411,6 @@ div.k-grid-header {
   color: white;
 }
 
-
 .k-grid-header .k-grid-filter:hover,
 .k-grid-header .k-header-column-menu:hover,
 .k-grid-header .k-hierarchy-cell .k-icon:hover {
@@ -429,24 +428,25 @@ div.k-grid-header {
   color: white;
   font-weight: 600;
   border-top: 1px solid #5d757e;
-  // border-bottom: 1px solid #5d757e;
 }
-k-grid tbody tr {
+.k-grid tbody tr {
   transition: $default-transition;
 }
-
 .k-grid tbody tr:hover,
-.k-grid tbody tr.k-state-hover {
-background-color: #5d757e;
-} 
-/* 
+.k-grid tbody tr.k-state-hover,
 .k-grid tbody tr:hover td,
-.k-grid tbody tr.k-state-hover td {
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
+.k-grid tbody tr.k-state-hover td,
+.k-grid .k-grid-content-locked .k-state-hover td,
+.k-grid .k-grid-content-locked tr:hover td {
   background-color: #5d757e;
 }
-*/
+.k-grid tbody tr:hover td,
+.k-grid tbody tr.k-state-hover td,
+.k-grid .k-grid-content-locked .k-state-hover td,
+.k-grid .k-grid-content-locked tr:hover td {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
 h4 {
   white-space: normal;
   font-size: 20px;
