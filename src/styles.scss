@@ -307,16 +307,6 @@ button.k-button.k-bare.k-button-icon:after {
 .k-grid-header .k-grid-filter:hover {
   border-radius: 5px;
 }
-// .k-grid .k-grid-content-locked tbody tr:hover,
-// .k-grid .k-grid-content-locked .k-state-hover,
-// .k-grid .k-grid-content-locked .k-state-hover td,
-// .k-grid .k-grid-content-locked tr:hover td {
-//   background-color: #5d757e;
-//   border-top: 1px solid #999;
-//   border-bottom: 1px solid #999;
-//   color: white;
-//   cursor: pointer;
-// }
 .k-pager-numbers .k-link.k-state-selected {
   background-color: #009ddb;
   border-radius: 5px;
@@ -418,24 +408,6 @@ div.k-grid-header {
   color: white;
   font-weight: 600;
 }
-.k-grid .k-grid-content-locked .k-state-selected td,
-.k-grid .k-grid-content-locked .k-state-selected:hover td,
-.k-grid .k-grid-content-locked .k-state-selected.k-state-hover td,
-.k-grid .k-grid-content-locked .k-state-selected.k-alt td,
-.k-grid td.k-state-selected,
-.k-grid tr.k-state-selected > td {
-  background-color: #5d757e;
-  color: white;
-  font-weight: 600;
-  border-top: 1px solid #5d757e;
-}
-.k-grid tbody tr {
-  transition: $default-transition;
-}
-.k-grid tbody tr td {
-  transition: $fast-transition;
-}
-
 h4 {
   white-space: normal;
   font-size: 20px;
@@ -459,9 +431,6 @@ h4 {
   background-attachment: local, local, scroll, scroll;
 }
 
-// .k-grid tr.k-alt {
-//   background-color: rgba(255, 255, 255, 0.08);
-// }
 .k-grid .k-grid-content td,
 .k-grid .k-grid-content-locked td {
   white-space: nowrap;
