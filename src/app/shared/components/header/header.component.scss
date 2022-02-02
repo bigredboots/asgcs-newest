@@ -232,10 +232,10 @@ button.search-submit {
 }
 /*refresh date block */
 .refresh-date {
-  font-size: 13px;
-  color: #999;
+  font-size: $smallest-font;
+  color: $grey-light;
   position: relative;
-  border-left: 2px solid #999;
+  border-left: 2px solid $grey-light;
   padding-left: 10px;
   margin-left: 10px;
   height: 40px;
@@ -243,10 +243,7 @@ button.search-submit {
 .refresh-date .title {
   font-weight: bold;
   display: block;
-  font-size: 14px;
-}
-.refresh-date .time {
-  font-size: 11px;
+  font-size: $small-font;
 }
 
 /*toggle-search */
