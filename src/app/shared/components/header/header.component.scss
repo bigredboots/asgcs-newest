@@ -230,6 +230,25 @@ button.search-submit {
     }
   }
 }
+/*refresh date block */
+.refresh-date {
+  font-size: 13px;
+  color: #999;
+  position: relative;
+  border-left: 2px solid #999;
+  padding-left: 10px;
+  align-content: center;
+  height: 40px;
+}
+.refresh-date .title {
+  font-weight: bold;
+  display: block;
+  font-size: 14px;
+}
+.refresh-date .time {
+  font-size: 11px;
+}
+
 /*toggle-search */
 #toggle-search:checked ~ .top-fields {
   .breadcrumb {
